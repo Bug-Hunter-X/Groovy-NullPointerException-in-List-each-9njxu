@@ -1,0 +1,1 @@
+This repository demonstrates a common Groovy error: a NullPointerException encountered when using the `each` method on a list containing null values. The `each` method doesn't inherently handle nulls; attempting to call `toUpperCase()` on a null element results in the exception.  The solution provides a robust approach to handle potential nulls within the list.
